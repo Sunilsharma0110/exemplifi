@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+@media (max-width: 767px) {
+    header	li.nav-item {
+        padding: 0px 37px;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        padding: 19px 0px;
+    }
+    header img.menu-icon {
+        display: inline;
+        margin-bottom: 0px;
+        vertical-align: middle;
+        margin-right: 19px;
+    }
+    header li.nav-item::after{ display: none;}
+  
+    header .biglink-nav {
+        border-bottom: 2px solid #ccc;}
+        header  .search-icon {
+            position: absolute;
+            top: 19px;
+            right: 78px;
+            width: 43px;
+            height: 43px;
+            line-height: 43px;
+        }
+        header br.m-none {
+            display: none;
+        }
+        
+        
+        header span.dropdown-arrow { display: none !important;}
+        header .megamenu-content{ width: 100% !important;}
+        header  button#toggleButton {
+          width: 45px;
+          background: aliceblue;
+          height: 39px;
+          text-align: center;
+          padding: 0px;
+      }
+      
+      
+}
+
+
+
+
+
+
+

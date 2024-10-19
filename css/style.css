@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+/**** RESET CSS****/
+*{margin:0;
+	padding:0;
+	-webkit-box-sizing:  border-box;
+	-moz-box-sizing:  border-box;
+	box-sizing:  border-box;
+}
+html, body, table, th, td, tr, tbody, thead, thead, tfoot, dl, dt, dd, div, em, strong, b, i, sub, sup, ul, ol, li, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, blockquote, a, abbr, acronym, address, big, small, cite, code, del, dfn, font, ins, kbd, q, s, samp, strike, fieldset, form, label, legend, caption, main, section, header, footer, aside, hgroup {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+.cls{ clear:both}
+
+body{
+	overflow-x: hidden;
+	
+}
+
+img {
+	max-width:100%;
+	vertical-align:bottom;
+	border:none
+}
+ul, ol, li {
+	list-style:none;
+}
+/**** RESET CLASSES ****/
+
+/**HEADER CSS START***/
+
+header{
+	background-color: #001489;
+}
+header a.navbar-brand {
+	font-size: 37px;
+	color: #fff !important;
+	font-style: italic;
+	font-weight: bold;
+}
+header .navbar-light .navbar-nav .nav-link {
+	color: #fff !important;
+	text-transform: uppercase;
+}
+header .biglink-nav{
+	text-align: center;
+	padding: 50px;
+}
+header .biglink-nav p{
+   color:#062a4e
+}
+header .biglink-nav h3 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+header .biglink-nav:hover a h3{
+	color: #6dcff6;
+	transition: 1s;
+}
+header .nav-link {
+	color: #fff;
+	font-weight: bold;
+}
+header li.nav-item {
+	padding: 0px 15px;
+	text-align: center;
+}
+header li.nav-item:last-child::after{
+	display: none;
+}
+header .megamenu-content .row {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #f8f9fa;
+}
+header .megamenu{
+	position: static;
+}
+header .megamenu-content {
+	width: 100vw;
+	left: 0;
+	right: 0;
+	top: 100%;
+	position: absolute;
+	display: none;
+	background-color: #f8f9fa;
+	z-index: 1000;
+	padding: 20px 0;
+}
+header .dropdown-menu.megamenu-content.show {
+	margin-top: 18px;
+}
+header .megamenu-content .row {
+	padding: 15px;
+	background-color: #f8f9fa;
+}
+header a#megamenuDropdown {
+	position: relative;
+}
+header span.dropdown-arrow {
+	position: absolute;
+	top: 83px;
+	font-size: 59px;
+	color: #fff;
+	transform: rotate(57deg);
+	left: 0px;
+	z-index: 1;
+}
+header span.dropdown-arrow {
+	visibility: hidden;
+}
+header .megamenu:hover span.dropdown-arrow {
+	visibility: visible;
+	width: 100%;
+	display: block;
+}
+header .search-icon {
+	width: 45px;
+	height: 45px;
+	background: #fa9076;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 50%;
+	color: #fff;
+	font-weight: bold;
+}
+header img.menu-icon {
+	display: block;
+	margin: auto;
+	margin-bottom: 9px;
+}
+header .dropdown-toggle::after{
+	display: none;
+}
+
+
+/**HEADER CSS END***/
